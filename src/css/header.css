@@ -1,0 +1,111 @@
+/* HEADER STYLES */
+.header-navigation-list {
+  display: none;
+}
+address {
+  display: none;
+}
+.page-header {
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  display: block;
+  width: 44px;
+  height: 39px;
+}
+.header-navigation {
+  margin-right: 87px;
+}
+.header-social-list {
+  display: flex;
+  margin-right: 12px;
+  gap: 12px;
+}
+.header-social-link {
+  display: flex;
+  padding: 7px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background: rgba(252, 249, 249, 0.1);
+}
+.header-social-link:hover,
+.header-social-link:focus {
+  background: transparent;
+  border-color: var(--secondary-color);
+}
+.header-social-icon {
+  fill: var(--main-color);
+  opacity: 0.8;
+}
+.header-burger {
+  line-height: 0;
+  stroke: var(--secondary-color);
+}
+/* HEADER TABLET STYLES */
+@media screen and (min-width: 768px) {
+  .header-navigation {
+    margin-right: 440px;
+  }
+  .header-social-list {
+    margin-right: 20px;
+  }
+}
+/* HEADER DESKTOP STYLES */
+@media screen and (min-width: 1220px) {
+  .header-burger {
+    display: none;
+  }
+  .header-navigation {
+    margin-right: 129px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+  }
+  .header-social-list {
+    margin-right: 0;
+  }
+  .header-navigation-list {
+    display: flex;
+    gap: 25px;
+    color: var(--main-color);
+    font-size: 14px;
+    line-height: 1.28em;
+    text-transform: uppercase;
+  }
+  .nav-item:hover,
+  .nav-item:focus {
+    color: var(--secondary-color);
+  }
+  address {
+    display: flex;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    color: var(--main-color);
+    font-size: 14px;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    margin-right: 20px;
+  }
+  address:hover,
+  address:focus {
+    border-color: var(--secondary-color);
+  }
+}
+/* HEADER DESKTOP_1440 STYLES */
+@media screen and (min-width: 1440px) {
+  .header-navigation {
+    margin-right: 289px;
+  }
+}
