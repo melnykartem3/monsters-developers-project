@@ -1,0 +1,150 @@
+
+.hero {
+margin-bottom: 80px;
+}
+.hero-title {
+font-size: 44px;
+font-weight: 400;
+line-height: 1.23;
+letter-spacing: -0.03px;
+color: var(--white, #FCF9F9);
+margin-bottom: 20px;
+}
+
+.hero-title-span {
+color: var(--white, #ECD979);
+}
+
+.hero-link {
+display: inline-flex;
+height: 49px;
+width: 155px;
+margin-left: 90px;
+padding: 14px 36px;
+align-items: center;
+justify-content: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+color: var(--white, #FCF9F9);
+color: var(--white, #FCF9F9);
+font-size: 14px;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+margin-bottom: 40px;
+transition: 250ms cubic-bezier(0.4, 0, 0.2,1);
+}
+
+.icon-hero-link {
+fill: #ECD979;
+transform: rotate(-30deg);
+}
+
+.hero-link:hover, .hero-link:focus {
+border: 1px solid var(--yellow, #ECD979);
+}
+
+.hero-text {
+display: none;
+}
+
+
+.icon-hero {
+display: none;
+}
+
+.image-decor {
+display: none;
+}
+@media screen and (min-width: 768px) {
+
+.hero-title {
+font-size: 54px;
+line-height: 1.19;
+margin-bottom: 40px;
+margin-left: 0;
+}
+
+.hero-link {
+width: 168px;
+padding: 14px 39px;
+margin-left: 141px;
+font-size: 16px;
+}
+
+.icon-hero {
+display: block;
+fill: #ECD979;
+margin-bottom: 16px;
+}
+
+.hero-text {
+display: block;
+width: 115px;
+color: rgba(252, 249, 249, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.04em;
+}
+
+.hero-container {
+margin-left: 0;
+max-width: 100%;
+}
+
+.hero {
+position: relative;
+}
+
+
+.hero-container-decor {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: absolute;
+right: 0;
+top: 0;
+transform: translateY(-26px);
+}
+
+.hero-image-dekor {
+display: flex;
+}
+
+
+.image-decor {
+position: absolute;
+bottom: 0;
+right: 0;
+transform: translateY(50%);
+}
+
+}
+
+@media screen and (min-width: 1220px) {
+.hero-container {
+display: flex;
+flex-direction: row-reverse;
+gap: 40px;
+justify-content: flex-end;
+}
+
+.hero-title-button {
+margin-top: 94px;
+margin-bottom: 169px;
+}
+
+.hero-link {
+margin-left: 181px;
+}
+
+.hero-container-decor {
+transform: translateY(-14px);
+}
+}
