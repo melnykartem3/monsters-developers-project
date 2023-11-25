@@ -2,26 +2,16 @@
     padding-bottom: 80px;
 }
 
-.container {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 .title-about-us {
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     font-size: 32px;
     font-weight: 500;
     line-height: 1.375;
     letter-spacing: -0.03em;
-    text-align: left;
 }
 
 .section-about-us-p-1 {
-    padding-bottom: 20px;
-}
-
-.section-about-us-p-2 {
-    padding-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .section-about-us-p-1,
@@ -29,43 +19,36 @@
     color: var(--tertiary-color);
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.365;
+    line-height: normal;
     letter-spacing: -0.04em;
-    text-align: left;
 }
 
 .section-about-us-img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 4px;
+    margin-top: 50px;
 }
 
 .section-about-us {
-    position: relative;
     background-image: url("../images/about-us/ornament-mobile-about-us.png");
-    background-position: right bottom;
+    background-position: right bottom 18px;
     background-size: auto;
     background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 480px) {}
-
 @media screen and (min-width: 768px) {
-    .container {
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-
     .section {
-        padding-bottom: 50px;
+        padding-bottom: 100px;
     }
 
-    .section-about-us-p-2 {
-        padding-bottom: 40px;
+    .section-about-us-img {
+        margin-top: 40px;
     }
 
     .section-about-us {
         background-image: url("../images/about-us/ornament-tablet-about-us.png");
+        background-position: right bottom 50px;
     }
 
     .title-about-us {
@@ -76,14 +59,15 @@
     .section-about-us-p-1,
     .section-about-us-p-2 {
         font-size: 16px;
-        line-height: 1.36;
     }
 }
 
 @media screen and (min-width: 1220px) {
     .section {
-        padding-bottom: 80px;
+        padding-bottom: 150px;
     }
+
+
 
     .container-section-about {
         display: flex;
@@ -92,16 +76,18 @@
         align-items: center;
     }
 
+    .section-about-us-img {
+        margin-top: 0;
+    }
+
     .section-about-us {
         background-image: url("../images/about-us/ornament-desktop-1280-about-us.png");
+        background-position: right bottom 70px;
     }
 
-    .section-about-us-p-2 {
-        padding-bottom: 0;
-    }
 
     .desctop-section {
-        width: 436px;
+        max-width: 436px;
     }
 }
 
@@ -111,6 +97,6 @@
     }
 
     .desctop-section {
-        width: 481px;
+        max-width: 481px;
     }
 }
