@@ -1,5 +1,6 @@
 .section {
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .title-about-us {
@@ -32,14 +33,15 @@
 
 .section-about-us {
     background-image: url("../images/about-us/ornament-mobile-about-us.png");
-    background-position: right bottom 18px;
+    background-position: right bottom -22px;
     background-size: auto;
     background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 768px) {
     .section {
-        padding-bottom: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .section-about-us-img {
@@ -48,7 +50,7 @@
 
     .section-about-us {
         background-image: url("../images/about-us/ornament-tablet-about-us.png");
-        background-position: right bottom 50px;
+        background-position: right bottom;
     }
 
     .title-about-us {
@@ -62,12 +64,11 @@
     }
 }
 
-@media screen and (min-width: 1220px) {
+@media screen and (min-width: 1280px) {
     .section {
-        padding-bottom: 150px;
+        padding-top:75px;
+        padding-bottom: 75px;
     }
-
-
 
     .container-section-about {
         display: flex;
@@ -81,7 +82,7 @@
 
     .section-about-us {
         background-image: url("../images/about-us/ornament-desktop-1280-about-us.png");
-        background-position: right bottom 70px;
+        background-position: right bottom -5px;
     }
 
 
