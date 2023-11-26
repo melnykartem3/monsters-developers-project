@@ -1,0 +1,18 @@
+.footer {
+}
+
+.footer-nav-list {
+}
+.footer-nav-link {
+color: var(--white, #FCF9F9);
+font-size: 14px;
+line-height: 1.28;
+text-transform: uppercase;
+}
+.footer-nav-link:hover, .footer-nav-link:focus{
+    color: #ECD979;
+}
+.footer-paragraf {
+}
+.footer-text {
+}
