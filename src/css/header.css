@@ -46,7 +46,7 @@ address {
 .header-social-link:focus {
   background-color: transparent;
   border-color: var(--secondary-color);
-  outline: 0;
+  outline: transparent;
 }
 .header-social-icon {
   fill: var(--main-color);
@@ -62,17 +62,21 @@ address {
 .social-and-btn {
   display: flex;
   gap: 12px;
+  align-items: center;
 }
 /* HEADER TABLET STYLES */
 @media screen and (min-width: 768px) {
   .page-header {
     padding-bottom: 110px;
   }
+  .social-and-btn {
+    gap: 20px;
+  }
 }
 /* HEADER DESKTOP STYLES */
-@media screen and (min-width: 1220px) {
+@media screen and (min-width: 1280px) {
   .page-header {
-    padding-bottom: 104px;
+    padding-bottom: 102px;
   }
   .header-burger {
     display: none;
@@ -115,6 +119,6 @@ address {
   .header-phone:hover,
   .header-phone:focus {
     border-color: var(--secondary-color);
-    outline: 0;
+    outline: transparent;
   }
 }
