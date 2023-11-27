@@ -2,25 +2,28 @@
 <===================================ORDER=======================================>
 ================================================================================= */
 
-.order {
-  padding: 80px 20px;
-  gap: 40px;
-  position: relative;
-  margin: 0 auto;
+.order_section {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .women_in_green {
-  max-width: 100%;
-  height: 520px;
-  background: url(../images/your-order/girl-in-green-mobile.jpg);
-  background-size: cover;
+  width: 100%;
+  height: 550px;
+  background-image: url(../images/your-order/girl-in-green-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-bottom: 80px;
 }
-
+.all_wrap {
+  padding: 0 20px;
+}
 .order_header {
   color: var(--main-color);
   font-size: 32px;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.375;
   letter-spacing: -0.03em;
   margin-bottom: 40px;
 }
@@ -28,11 +31,15 @@
 .header_part {
   color: var(--secondary-color);
 }
+
+.order_lable {
+  width: 335px;
+}
 .order_input {
   display: flex;
   padding: 14px 16px;
   color: var(--main-color);
-  width: 335px;
+  width: 100%;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: transparent;
@@ -41,8 +48,9 @@
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.order_input:focus {
-  border-color: var(--main-color);
+.order_input:focus,
+.order_input:hover {
+  border-color: rgba(252, 249, 249, 0.6);
   color: var(--main-color);
 }
 .textarea {
@@ -62,6 +70,7 @@
   color: var(--main-color);
   background-color: transparent;
   border: 1px solid rgba(252, 249, 249, 0.1);
+  line-height: normal;
   font-size: 14px;
   min-width: 175px;
   font-weight: 600;
@@ -84,7 +93,6 @@
 }
 
 .order_image_wrapper {
-  position: relative;
   width: 100%;
   height: 717px;
   margin-top: 100px;
@@ -92,7 +100,6 @@
 }
 
 .top_image {
-  margin-left: auto;
   display: none;
 }
 
@@ -157,6 +164,54 @@
   }
 }
 
+@media screen and (min-resolution: 1dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 1) and (min-width: 768px),
+  screen and (min-resolution: 96dpi) and (min-width: 768px) {
+  .order_section {
+    background: url(../images/your-order/ornament-Our-order-tablet.png);
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-width: 768px) and (min-resolution: 2dppx),
+  screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
+  .order_section {
+    background: url(../images/your-order/ornament-Our-order-tablet@2x.png);
+  }
+}
+
+@media screen and (min-resolution: 1dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 1) and (min-width: 1280px),
+  screen and (min-resolution: 96dpi) and (min-width: 1280px) {
+  .order_section {
+    background: url(../images/your-order/ornament-our-order-desktop1280.png);
+  }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-width: 1280px) and (min-resolution: 2dppx),
+  screen and (min-width: 1280px) and (min-device-pixel-ratio: 2) {
+  .order_section {
+    background: url(../images/your-order/ornament-our-order-desktop1280@2x.png);
+  }
+}
+
+@media screen and (min-resolution: 1dppx) and (min-width: 1440px),
+  screen and (min-device-pixel-ratio: 1) and (min-width: 1440px),
+  screen and (min-resolution: 96dpi) and (min-width: 1440px) {
+  .order_section {
+    background: url(../images/your-order/ornament-our-order-desktop1440.png);
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+  screen and (min-width: 1440px) and (min-resolution: 2dppx),
+  screen and (min-width: 1440px) and (min-device-pixel-ratio: 2) {
+  .order_section {
+    background: url(../images/your-order/ornament-our-order-desktop1440@2x.png);
+  }
+}
+
 /* <===========================================================>
 <==================== MEDIA FOR TABLET ==================>
 <===========================================================> */
@@ -164,7 +219,12 @@
 @media screen and (min-width: 768px) {
   .women_in_green {
     height: 776px;
+    margin-bottom: 100px;
     background-position: center;
+    background-size: cover;
+  }
+  .all_wrap {
+    padding: 0 32px;
   }
   .order_header {
     width: 542px;
@@ -185,13 +245,20 @@
 
   .top_image {
     display: block;
-    margin-bottom: 80px;
+    object-fit: cover;
+    margin-bottom: 79px;
   }
 
-  .order {
-    background: url(../images/your-order/ornament-Our-order-tablet.png);
+  .order_section {
+    background-size: 340px;
     background-repeat: no-repeat;
-    background-position: bottom 80px left;
+    background-position: bottom 50px left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .image_container {
+    display: flex;
+    justify-content: flex-end;
   }
 }
 
@@ -200,13 +267,16 @@
 <===========================================================> */
 
 @media screen and (min-width: 1280px) {
-  .order {
+  .women_in_green {
+    margin-bottom: 150px;
+  }
+  .all_wrap {
     display: flex;
     flex-direction: row-reverse;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-left: 64px;
-    background-position: bottom 150px left -34px;
+    gap: 50px;
+
+    padding-right: 32px;
+    padding-left: 32px;
   }
 
   .text_wrapper {
@@ -215,12 +285,21 @@
   }
 
   .image_container {
-    min-width: 524px;
-    height: 521px;
+    max-width: 524px;
   }
 
   .order_send {
     margin-bottom: 0;
+  }
+  .top_image {
+    width: 100%;
+    margin: 0;
+  }
+  .order_section {
+    background-position: bottom 75px left;
+    background-size: 288px;
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
 }
 
@@ -229,10 +308,12 @@
 <===========================================================> */
 
 @media screen and (min-width: 1440px) {
-  .order {
-    padding-left: 100px;
+  .order_section {
+    background-position: bottom 75px left;
+    background-size: 320px;
   }
-  .order {
-    background-position: bottom 150px left;
+
+  .text_wraper {
+    width: 666px;
   }
 }
