@@ -33,7 +33,7 @@
 
 .section-about-us {
     background-image: url("../images/about-us/ornament-mobile-about-us.png");
-    background-position: right bottom -22px;
+    background-position: right bottom;
     background-size: auto;
     background-repeat: no-repeat;
 }
@@ -82,7 +82,7 @@
 
     .section-about-us {
         background-image: url("../images/about-us/ornament-desktop-1280-about-us.png");
-        background-position: right bottom -5px;
+        background-position: right bottom;
     }
 
 
