@@ -1,0 +1,244 @@
+.order {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+/* ============================================================================
+<===================================ORDER=======================================>
+================================================================================= */
+
+.order {
+  padding: 80px 20px;
+  gap: 40px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.women_in_green {
+  max-width: 100%;
+  height: 520px;
+  background: url(../images/your-order/girl-in-green-mobile.jpg);
+  background-size: cover;
+}
+
+.order_header {
+  color: var(--main-color);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+
+.header_part {
+  color: var(--secondary-color);
+}
+.order_input {
+  display: flex;
+  padding: 14px 16px;
+  color: var(--main-color);
+  width: 335px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  margin-bottom: 20px;
+  outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.order_input:focus {
+  border-color: var(--main-color);
+  color: var(--main-color);
+}
+.textarea {
+  height: 196px;
+  resize: none;
+  margin-bottom: 40px;
+  align-items: stretch;
+}
+
+.order_input::placeholder {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+}
+
+.order_send {
+  display: block;
+  color: var(--main-color);
+  background-color: transparent;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  font-size: 14px;
+  min-width: 175px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  padding: 14px 36px;
+  border-radius: 15px;
+  margin: 0 auto;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order_send:hover {
+  border-color: var(--secondary-color);
+}
+
+.button_arrow {
+  fill: var(--secondary-color);
+  transform: rotate(-30deg);
+  margin-left: 10px;
+}
+
+.order_image_wrapper {
+  position: relative;
+  width: 100%;
+  height: 717px;
+  margin-top: 100px;
+  padding-right: 12px;
+}
+
+.top_image {
+  margin-left: auto;
+  display: none;
+}
+
+/* ============================================================================
+<===================================  RETINA IMAGES  =======================================>
+================================================================================= */
+
+@media screen and (min-resolution: 1dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 1) and (min-width: 768px),
+  screen and (min-resolution: 96dpi) and (min-width: 768px) {
+  .women_in_green {
+    background: url(../images/your-order/girl-in-green-tablet.jpg);
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-width: 768px) and (min-resolution: 2dppx),
+  screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
+  .women_in_green {
+    background: url(../images/your-order/girl-in-green-tablet@2x.jpg);
+  }
+}
+
+@media screen and (min-resolution: 1dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 1) and (min-width: 1280px),
+  screen and (min-resolution: 96dpi) and (min-width: 1280px) {
+  .women_in_green {
+    background: url(../images/your-order/girl-in-green-desktop-1280.jpg);
+  }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-width: 1280px) and (min-resolution: 2dppx),
+  screen and (min-width: 1280px) and (min-device-pixel-ratio: 2) {
+  .women_in_green {
+    background: url(../images/your-order/girl-in-green-desktop-1280@2x.jpg);
+  }
+}
+
+@media screen and (min-resolution: 1dppx) and (min-width: 1440px),
+  screen and (min-device-pixel-ratio: 1) and (min-width: 1440px),
+  screen and (min-resolution: 96dpi) and (min-width: 1440px) {
+  .women_in_green {
+    background: url(../images/your-order/girl-in-green-desktop-1440.jpg);
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+  screen and (min-width: 1440px) and (min-resolution: 2dppx),
+  screen and (min-width: 1440px) and (min-device-pixel-ratio: 2) {
+  .women_in_green {
+    background: url(../images/your-order/girl-in-green-desktop-1440@2x.jpg);
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .women_in_green {
+    background: url(../images/your-order/girl-in-green-mobile@2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+/* <===========================================================>
+<==================== MEDIA FOR TABLET ==================>
+<===========================================================> */
+
+@media screen and (min-width: 768px) {
+  .women_in_green {
+    height: 776px;
+    background-position: center;
+  }
+  .order_header {
+    width: 542px;
+    font-size: 44px;
+    line-height: 1.31;
+    letter-spacing: -0.03em;
+  }
+
+  .order_input {
+    width: 508px;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+  }
+  .order_send {
+    margin: 0;
+    margin-bottom: 100px;
+  }
+
+  .top_image {
+    display: block;
+    margin-bottom: 80px;
+  }
+
+  .order {
+    background: url(../images/your-order/ornament-Our-order-tablet.png);
+    background-repeat: no-repeat;
+    background-position: bottom 80px left;
+  }
+}
+
+/* <===========================================================>
+<==================== MEDIA FOR DESKTOP (1280) ==================>
+<===========================================================> */
+
+@media screen and (min-width: 1280px) {
+  .order {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 64px;
+    background-position: bottom 150px left -34px;
+  }
+
+  .text_wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .image_container {
+    min-width: 524px;
+    height: 521px;
+  }
+
+  .order_send {
+    margin-bottom: 0;
+  }
+}
+
+/* <===========================================================>
+<==================== MEDIA FOR DESKTOP (1440) ==================>
+<===========================================================> */
+
+@media screen and (min-width: 1440px) {
+  .order {
+    padding-left: 100px;
+  }
+  .order {
+    background-position: bottom 150px left;
+  }
+}
