@@ -19,10 +19,8 @@ body {
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media screen and (min-width: 480px) {
@@ -36,12 +34,16 @@ body {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
-@media screen and (min-width: 1220px) {
+@media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
 
@@ -49,10 +51,4 @@ body {
   .container {
     width: 1440px;
   }
-}
-
-.section {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  width: 100%;
 }
