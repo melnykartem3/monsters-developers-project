@@ -1,3 +1,9 @@
+.order {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 /* ============================================================================
 <===================================ORDER=======================================>
 ================================================================================= */
@@ -29,6 +35,7 @@
   color: var(--secondary-color);
 }
 .order_input {
+  display: flex;
   padding: 14px 16px;
   color: var(--main-color);
   width: 335px;
@@ -48,6 +55,7 @@
   height: 196px;
   resize: none;
   margin-bottom: 40px;
+  align-items: stretch;
 }
 
 .order_input::placeholder {
