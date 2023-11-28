@@ -9,7 +9,7 @@ font-weight: 400;
 line-height: 1.23;
 letter-spacing: -0.03em;
 margin-bottom: 20px;
-width: 335px;
+max-width: 100%;
 }
 
 .hero-title-span {
@@ -132,7 +132,7 @@ transform: translateY(50%);
 
 }
 
-@media screen and (min-width: 1220px) {
+@media screen and (min-width: 1280px) {
 .hero-container {
 display: flex;
 flex-direction: row-reverse;
