@@ -1,0 +1,151 @@
+.our-collection-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url(../images/our-collection/ornament-mobile-our-collection.png);
+  background-repeat: no-repeat;
+  background-position: top 300px left;
+}
+.collection-wrapper {
+  width: 375px;
+}
+.collection-title {
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.375;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+.collection-list {
+  width: 335px;
+}
+.collection-item {
+  width: 335px;
+}
+.vyshyvanka-image {
+  border-radius: 4px;
+}
+.desc-wrapper {
+  margin-top: 18px;
+  margin-bottom: 20px;
+}
+.vyshyvanka-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  text-wrap: nowrap;
+}
+
+.vyshyvanka-desc {
+  color: var(--tertiary-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.vyshyvanka-title-2 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .our-collection-section {
+    background-image: url(../images/our-collection/ornament-tablet-our-collection.png);
+    background-repeat: no-repeat;
+    background-position: top 180px left;
+  }
+  .collection-wrapper {
+    width: 764px;
+  }
+  .collection-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 704px;
+  }
+  .collection-item:nth-child(even) {
+    margin-right: 0;
+  }
+  .collection-item {
+    width: 342px;
+    margin-right: 20px;
+  }
+  .collection-title {
+    font-size: 44px;
+    line-height: 1.45;
+  }
+
+  .vyshyvanka-title-1 {
+    display: none;
+  }
+
+  .vyshyvanka-title-2 {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    text-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .our-collection-section {
+    background-image: url(../images/our-collection/ornament-desktop-our-collection.png);
+    background-position: top 167px left;
+    background-repeat: no-repeat;
+  }
+  .collection-wrapper {
+    width: 1281px;
+  }
+  .collection-list {
+    width: 1081px;
+  }
+  .collection-item:nth-child(even) {
+    margin-right: 20px;
+  }
+  .collection-item:nth-child(3n + 3) {
+    margin-right: 0;
+  }
+  .collection-item {
+    width: 347px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .our-collection-section {
+    background-image: url(../images/our-collection/ornament-desktop-our-collection.png);
+    background-position: top 335px left;
+    background-repeat: no-repeat;
+  }
+  .collection-wrapper {
+    width: 1440px;
+  }
+  .collection-list {
+    width: 1240px;
+  }
+  .collection-item {
+    width: 400px;
+  }
+  .collection-item:nth-child(even) {
+    margin-right: 20px;
+  }
+  .collection-item:nth-child(3n + 3) {
+    margin-right: 0;
+  }
+
+  .vyshyvanka-title-2 {
+    display: none;
+  }
+
+  .vyshyvanka-title-1 {
+    display: block;
+  }
+}
