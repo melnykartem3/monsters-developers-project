@@ -7,7 +7,7 @@ padding-bottom: 40px;
 font-size: 44px;
 font-weight: 400;
 line-height: 1.23;
-letter-spacing: -0.03em;
+letter-spacing: -0.04em;
 margin-bottom: 20px;
 max-width: 100%;
 }
@@ -150,7 +150,10 @@ justify-content: flex-end;
 
 .hero-title-button {
 margin-top: 94px;
-margin-bottom: 169px;
+}
+
+.hero-link {
+margin-bottom: 0;
 }
 
 .hero-link-container {
@@ -168,7 +171,30 @@ right: -130px;
 }
 
 .image-decor {
-left: 1041px;
+left: 980px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+
+
+.hero-title {
+max-width: 632px;
+margin-bottom: 54px;
+}
+
+.hero-title-button {
+margin-top: 66px;
+}
+
+
+.hero-container-decor {
+transform: translateY(0);
+right: -176px;
+}
+
+.image-decor {
+left: 1026px;
 }
 
 }
