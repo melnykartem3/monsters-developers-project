@@ -1,0 +1,115 @@
+.testimonials-title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+    margin-bottom: 64px; }
+
+
+   .testimonials-list-fullname {
+font-size: 20px;
+font-weight: 600;
+line-height: 1.5;
+   }
+  .testimonials-list-text {
+   display: flex;
+   color: var(--tertiary-color);
+text-align: center;
+   font-size: 14px;
+   max-width: 291px;
+   line-height: normal;
+  } 
+ 
+  .testimonials-list-item {
+   position: relative;
+   
+   border-radius: 4px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+display: flex;
+justify-content: center;
+  }
+  .testimonials-list-img {
+   position: absolute;
+   left: 50%;
+   top: 0;
+   transform: translate(-50%, -50%);
+  }
+  .testimonials {
+   padding-top: 40px;
+   padding-bottom: 40px;
+  }
+  .title-text-wrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   align-items: center;
+   padding-top: 54px;
+   padding-bottom: 18px;
+  }
+
+ 
+  @media (max-width: 767.9px) {
+   .testimonials-list-item:not(:first-child) {
+       display: none;
+     }
+ }
+
+ 
+ @media screen and (min-width: 768px) {
+   .testimonials-title {
+       font-size: 44px;
+       line-height: 1.45;
+        }
+        .testimonials-list-text {
+           font-size: 16px;
+           max-width: 300px;
+    } 
+   
+    .testimonials-list {
+      display: flex;
+      gap: 32px;
+      justify-content: space-between;
+    }
+   
+    .testimonials-list-item {
+       width: calc((100% - 32px) / 2); 
+       
+    }
+    .testimonials {
+       padding-top: 50px;
+   padding-bottom: 50px;
+      }
+      
+    
+ }
+ @media (max-width: 1279.9px) {
+  
+   .testimonials-list-item:last-child {
+       display: none;
+     }
+    ;
+ }
+ 
+ @media screen and (min-width: 1280px) {
+   .testimonials-list {
+       column-gap: 26px;
+      }
+   .testimonials-list-item {
+       width: calc((100% - 2*26px) / 3);
+      }
+   
+   
+    .testimonials-list-text {
+      
+      max-width: 307px;
+} 
+.testimonials {
+   padding-top: 75px;
+padding-bottom: 75px;
+  }
+ }
+@media screen and (min-width: 1400px) {
+   .testimonials-list-text {
+      max-width: 360px;
+} 
+}
