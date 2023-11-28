@@ -9,6 +9,11 @@ address {
   padding-top: 24px;
   padding-bottom: 64px;
 }
+
+.header-phone {
+  font-style: normal;
+}
+
 .header-container {
   display: flex;
   align-items: center;
