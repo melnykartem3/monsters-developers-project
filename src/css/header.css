@@ -1,5 +1,5 @@
 /* HEADER MOBILE MENU STYLES */
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1279.9px) {
   .mobile-menu-background {
     position: fixed;
     top: 0;
@@ -87,7 +87,8 @@
   @media screen and (min-width: 768px) {
     .mobile-menu {
       width: 418px;
-      height: 1004px;
+      height: 100%;
+      background-position-y: 106%;
     }
     .menu-container {
       padding-top: 20px;
