@@ -36,7 +36,6 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   margin-bottom: 8px;
-  text-wrap: nowrap;
 }
 
 .vyshyvanka-desc {
@@ -94,7 +93,6 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     margin-bottom: 8px;
-    text-wrap: nowrap;
   }
 }
 
