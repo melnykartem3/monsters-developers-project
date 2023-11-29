@@ -42,6 +42,7 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: transparent;
   margin-bottom: 20px;
+  font-weight: 600;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -69,7 +70,7 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   line-height: normal;
   font-size: 14px;
-  min-width: 175px;
+  min-width: 145px;
   font-weight: 600;
   letter-spacing: -0.04em;
   text-transform: uppercase;
@@ -255,6 +256,13 @@
   .image_container {
     display: flex;
     justify-content: flex-end;
+  }
+
+  .order_send {
+    min-width: 168px;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-size: 16px;
   }
 }
 
