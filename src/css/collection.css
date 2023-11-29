@@ -24,6 +24,7 @@
 }
 .vyshyvanka-image {
   border-radius: 4px;
+  width: 100%;
 }
 .desc-wrapper {
   margin-top: 18px;

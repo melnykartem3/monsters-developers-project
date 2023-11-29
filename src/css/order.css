@@ -242,6 +242,7 @@
     display: block;
     object-fit: cover;
     margin-bottom: 79px;
+    width: 100%;
   }
 
   .order_section {
