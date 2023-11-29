@@ -55,7 +55,6 @@
   height: 196px;
   resize: none;
   margin-bottom: 40px;
-  align-items: stretch;
 }
 
 .order_input::placeholder {

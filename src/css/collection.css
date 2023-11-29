@@ -54,6 +54,8 @@
 
 @media screen and (min-width: 768px) {
   .our-collection-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-image: url(../images/our-collection/ornament-tablet-our-collection.png);
     background-repeat: no-repeat;
     background-position: top 180px left;
@@ -98,6 +100,8 @@
 
 @media screen and (min-width: 1280px) {
   .our-collection-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
     background-image: url(../images/our-collection/ornament-desktop-our-collection.png);
     background-position: top 167px left;
     background-repeat: no-repeat;
