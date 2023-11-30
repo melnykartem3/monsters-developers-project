@@ -209,6 +209,10 @@
   .social-and-btn {
     gap: 20px;
   }
+
+  .header-address {
+    display: block;
+  }
 }
 /* HEADER DESKTOP STYLES */
 @media screen and (min-width: 1280px) {
