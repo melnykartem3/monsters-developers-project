@@ -1,102 +1,101 @@
 .section {
-    padding-top: 40px;
-    padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .title-about-us {
-    margin-bottom: 40px;
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 1.375;
-    letter-spacing: -0.03em;
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.375;
+  letter-spacing: -0.03em;
 }
 
 .section-about-us-p-1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .section-about-us-p-1,
 .section-about-us-p-2 {
-    color: var(--tertiary-color);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.04em;
+  color: var(--tertiary-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
 }
 
 .section-about-us-img {
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 4px;
-    margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  margin-top: 50px;
 }
 
 .section-about-us {
-    background-image: url("../images/about-us/ornament-mobile-about-us.png");
-    background-position: right bottom;
-    background-size: auto;
-    background-repeat: no-repeat;
+  background-image: url('../images/about-us/ornament-mobile-about-us.png');
+  background-position: right bottom;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 768px) {
-    .section {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
-    .section-about-us-img {
-        margin-top: 40px;
-    }
+  .section-about-us-img {
+    margin-top: 40px;
+  }
 
-    .section-about-us {
-        background-image: url("../images/about-us/ornament-tablet-about-us.png");
-        background-position: right bottom;
-    }
+  .section-about-us {
+    background-image: url('../images/about-us/ornament-tablet-about-us.png');
+    background-position: right bottom;
+  }
 
-    .title-about-us {
-        font-size: 44px;
-        line-height: 1.45;
-    }
+  .title-about-us {
+    font-size: 44px;
+    line-height: 1.45;
+  }
 
-    .section-about-us-p-1,
-    .section-about-us-p-2 {
-        font-size: 16px;
-    }
+  .section-about-us-p-1,
+  .section-about-us-p-2 {
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .section {
-        padding-top:75px;
-        padding-bottom: 75px;
-    }
+  .section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
 
-    .container-section-about {
-        display: flex;
-        gap: 50px;
-        align-items: center;
-    }
+  .container-section-about {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
 
-    .section-about-us-img {
-        margin-top: 0;
-    }
+  .section-about-us-img {
+    margin-top: 0;
+  }
 
-    .section-about-us {
-        background-image: url("../images/about-us/ornament-desktop-1280-about-us.png");
-        background-position: right bottom;
-    }
+  .section-about-us {
+    background-image: url('../images/about-us/ornament-desktop-1280-about-us.png');
+    background-position: right bottom;
+  }
 
-
-    .desctop-section {
-        max-width: 436px;
-    }
+  .desctop-section {
+    max-width: 436px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .section-about-us {
-        background-image: url("../images/about-us/ornament-desktop-1440-about-us.png");
-    }
+  .section-about-us {
+    background-image: url('../images/about-us/ornament-desktop-1440-about-us.png');
+  }
 
-    .desctop-section {
-        max-width: 481px;
-    }
+  .desctop-section {
+    max-width: 481px;
+  }
 }
